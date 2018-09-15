@@ -1,0 +1,71 @@
+{
+  "id": "f0a29604-1ccb-4050-8bdf-16bf825fa342",
+  "name": "ONEPIECE",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "payload": {
+            "type": "template",
+            "altText": "this is a buttons template",
+            "template": {
+              "type": "buttons",
+              "actions": [
+                {
+                  "type": "uri",
+                  "label": "1 - 100",
+                  "uri": "http://anoboy.org/2016/03/one-piece-episode-1-sampai-100-streaming-online/"
+                },
+                {
+                  "type": "uri",
+                  "label": "101 - 200",
+                  "uri": "http://anoboy.org/2016/09/one-piece-ep-101-sampai-200-streaming-sub-indo/"
+                }
+              ],
+              "thumbnailImageUrl": "https://i.ytimg.com/vi/SSWsmRJJQPQ/maxresdefault.jpg",
+              "title": "NONTON ONE PIECE",
+              "text": "CHOOSE EPISODE"
+            }
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537027002,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ec3b5f59-be4b-4b50-bc87-4a625f7c4e39",
+      "data": [
+        {
+          "text": "ONEPIECE"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1537027002,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
